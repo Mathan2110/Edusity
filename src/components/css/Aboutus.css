@@ -1,0 +1,47 @@
+.about_container{
+    padding:2% 14%;
+    display: flex;
+}
+
+.about_img{
+    height: 430px;
+    position: relative;
+}
+
+.play_icon{
+    position: absolute;
+    height: 60px;
+    top: 50%;
+    left: 50%;   
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+
+.play_icon img{
+    height: 100%;
+}
+
+.about_img img{
+    height: 100%;
+    border-radius: 10px;
+}
+
+.about{
+    padding: 1.5rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about_text{
+    color: rgba(0, 0, 255, 0.852);
+}
+
+.about_head{
+    color: rgba(0, 0, 0, 0.872);
+}
+
+.about_text2{
+    color: rgb(109, 109, 109);
+    font-weight: 400;
+}

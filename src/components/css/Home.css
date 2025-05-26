@@ -1,0 +1,57 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)) ,url(../../assets/hero.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 0 24%;
+    padding-top: 1rem;
+    /* padding-bottom: 2rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head{
+    font-size: 3.7rem;
+    text-align: center;
+}
+
+.text{
+    padding: 0 2.4rem;
+    padding-top: 0.8rem;
+    text-align: center;
+}
+
+.explore_btn{ 
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+    align-items: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 1rem 1.5rem;
+    border-radius: 30px;
+    border: none;
+    color: rgb(61, 61, 61);
+    margin-top: 2rem;
+}
+
+.arrow{
+    height: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
