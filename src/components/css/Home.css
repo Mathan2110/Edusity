@@ -89,15 +89,15 @@
 
 @media (max-width:470px){
     .head{
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .text{
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .explore_btn{ 
-    font-size: 14px;
+    font-size: 18px;
     padding: 0.7rem 1rem;
 }
 }
