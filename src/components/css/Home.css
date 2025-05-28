@@ -53,5 +53,51 @@
 }
 
 
+/* --- Media queries --- */
+@media (max-width:1200px){
+    .container{
+        padding: 0 6rem;
+    }
+}
+
+@media (max-width:1160px){
+    .container{
+        padding: 0 3rem;
+    }
+}
 
 
+@media (max-width:1160px){
+    .head{
+        font-size: 44px;
+    }
+
+    .text{
+        font-size: 16px;
+    }
+}
+
+@media (max-width:650px){
+    .head{
+        font-size: 30px;
+    }
+
+    .text{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:470px){
+    .head{
+        font-size: 20px;
+    }
+
+    .text{
+        font-size: 10px;
+    }
+
+    .explore_btn{ 
+    font-size: 14px;
+    padding: 0.7rem 1rem;
+}
+}

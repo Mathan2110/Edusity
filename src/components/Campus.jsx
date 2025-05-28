@@ -8,7 +8,7 @@ import './css/Campus.css'
 
 const Campus = () => {
   return (
-    <div className='campus_container'>
+    <div className='campus_container' id='campus'>
         <h5 className="gallery_text">GALLERY</h5>
         <h1 className="campus_img_text">Campus Photos</h1>
         <div className="campus_images">

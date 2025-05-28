@@ -8,7 +8,7 @@ import './css/Program.css'
 
 const Program = () => {
   return (
-    <div className='program_container'>
+    <div className='program_container' id='program'>
         <h5 className="program_text">OUR PROGRAM</h5>
         <h2 className='offer_text'>What We Offer</h2>
         <div className='programs'>

@@ -30,11 +30,12 @@
 .nav_links ul li{
     color: white;
     transition: color 0.3s ease;
+    pointer-events: auto;
+    cursor: pointer;
 }
 
 .nav_links ul li:hover{
     color:rgba(255, 255, 255, 0.788) ;
-    cursor: pointer;
 }
 
 .contact_btn{ 
@@ -45,6 +46,12 @@
     border-radius: 30px;
     border: none;
     color: rgb(61, 61, 61);
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+.contact_btn:hover{
+    background-color: #e3e3e3;
 }
 
 
@@ -52,3 +59,67 @@
     background-color: #212EA0;
     transition: 0.5s;
 }
+
+.menu_icon{
+    width: 32px;
+    right: 2rem;
+    top: 1rem;
+    position: fixed;
+    display: none;
+}
+
+.menu_icon img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+/* --- Media queries --- */
+@media (max-width:1200px){
+    .nav_container{
+        padding: 0 6rem;
+    }
+}
+
+@media (max-width:1160px){
+    .nav_container{
+        padding: 0 3rem;
+    }
+}
+
+@media (max-width:1040px){
+    .nav_links{
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #212EA0;
+        padding-left: 2rem;
+        right: -250px;
+        transition: 0.5s;
+    }
+
+    .nav_links ul{
+        flex-direction: column;
+        margin-top: 5rem;
+    }
+
+    .logo{
+        height: 29px;
+    }
+
+    .menu_icon{
+        display: block;
+        cursor: pointer;
+    }
+
+    .show_menu{
+        right: 0;
+    }
+
+}
+
